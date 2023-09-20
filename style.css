@@ -1,18 +1,67 @@
-body {
-  
-  background-color: #333333;
-  color: #dddddd;
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 10% 20%;
-  
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
 }
 
-.exp-header {
-   text-align: center;
-  text-transform: uppercase;
-  border-top: 1px solid #dddddd;
-  border-bottom: 1px solid #dddddd;
-  background-color: rgba (0, 0, 0, 0.1)
-  
-  
+/* Set font and background for the entire document */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #778899;
+    margin: 20px;
 }
+
+/* Style the header */
+header {
+    text-align: center;
+    background-color: #333333;
+    color: #eee;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Style section headers */
+section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style job listings */
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.job .company {
+    font-weight: bold;
+}
+
+.job .date {
+    color: #ffff;
+    margin-top: 5px;
+}
+
+/* Style skills list */
+.skills ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #666;
+}
+
